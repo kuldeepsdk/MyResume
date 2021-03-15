@@ -58,6 +58,9 @@ body, html {
   -webkit-font-smoothing: antialiased;  
 }
 .SocialMedia .fa-3x{
+  font-size: 2em;
+}
+.SocialMedia .fa-3x:hover{
   font-size: 3em;
 }
 .SocialMedia .fa-envelope:hover{
@@ -94,6 +97,9 @@ body, html {
   transition-duration: 200ms;
   text-decoration: none;
 }
+.EDUCATION:hover{
+  background-color: #31A6FF;
+}
 
 .SKILL{
   font-family: "proxima nova";
@@ -108,6 +114,9 @@ body, html {
   transition-duration: 200ms;
   text-decoration: none;
 }
+.SKILL:hover{
+  background-color: #31A6FF;
+}
 .PROJECTS{
   font-family: "proxima nova";
   font-weight: 100;
@@ -121,7 +130,9 @@ body, html {
   transition-duration: 200ms;
   text-decoration: none;
 }
-
+.PROJECTS:hover{
+  background-color: #31A6FF;
+}
 .HIRE-ME{
   font-family: "proxima nova";
   font-weight: 100;
@@ -134,4 +145,7 @@ body, html {
   -webkit-transition-duration: 200ms;
   transition-duration: 200ms;
   text-decoration: none;
+}
+.HIRE-ME:hover{
+  background-color: #31A6FF;
 }
