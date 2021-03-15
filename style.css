@@ -33,8 +33,7 @@ body, html {
   text-align: center;
 }
 .Container-inside img{
-  position: relative;
-  margin-top: -60%;
+  position: static;
   width: 225px;
   height: 225px;
   border-radius: 40%;
@@ -46,13 +45,93 @@ body, html {
   color:wheat;
 
 }
+.SocialMedia{
+  position: relative;
+}
+.SocialMedia .fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  color: white;
+  margin-left: 10px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;  
+}
+.SocialMedia .fa-3x{
+  font-size: 3em;
+}
+.SocialMedia .fa-envelope:hover{
+  color: #B23121;
+}
 
-.fa{
-  margin-top: 5px;
-  color: #f1f1f1;
-  float: left;
-  width: 50px;
-  height: 50px;
-  margin-left: 2%;
-  text-decoration: none;  
+.SocialMedia .fa-facebook-square:hover{
+  color:blue;
+}
+
+.SocialMedia .fa-instagram:hover{
+  color:#8a3ab9;
+}
+.SocialMedia .fa-twitter-square:hover{
+  color:#1DA1F2;
+}
+.SocialMedia .fa-linkedin-square:hover{
+  color:#1DA1F2;
+}
+.SocialMedia .fa-youtube-square:hover{
+  color:#FF0000;
+}
+
+.EDUCATION{
+  font-family: "proxima nova";
+  font-weight: 100;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border: 2px solid #31A6FF;
+  border-radius: 30px;
+  padding: 10px 80px;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  text-decoration: none;
+}
+
+.SKILL{
+  font-family: "proxima nova";
+  font-weight: 100;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border: 2px solid #31A6FF;
+  border-radius: 30px;
+  padding: 10px 110px;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  text-decoration: none;
+}
+.PROJECTS{
+  font-family: "proxima nova";
+  font-weight: 100;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border: 2px solid #31A6FF;
+  border-radius: 30px;
+  padding: 10px 90px;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  text-decoration: none;
+}
+
+.HIRE-ME{
+  font-family: "proxima nova";
+  font-weight: 100;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border: 2px solid #31A6FF;
+  border-radius: 30px;
+  padding: 10px 100px;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  text-decoration: none;
 }
