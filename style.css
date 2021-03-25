@@ -6,11 +6,31 @@ body, html {
 * {
   box-sizing: border-box;
 }
+.profile-img{
+  margin-top: 10%;
+}
+.Skill_container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+.c {width: 75%; background-color: #4CAF50;} /* Green */
+.Java {width: 70%; background-color: #2196F3;} /* Blue */
+.python {width: 40%; background-color: #f44336;} /* Red */
+.php {width: 25%; background-color: #808080;} /* Dark Grey */
+
+
+
 .Main-container
 {
   background-image: url("../myResume/Image/background.jpg");
   background-color: #cccccc;
-  height: 120%;
+  height: 200%;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,6 +48,7 @@ body, html {
   top:45%;
   left:50%;
   z-index: 1;
+  margin-top: 20%;
   width: 90%;
   height: auto;
   padding: 20px;
@@ -63,6 +84,9 @@ body, html {
 }
 .SocialMedia .fa-3x:hover{
   font-size: 3em;
+}
+.fa-book{
+  color: cyan;
 }
 
 .SocialMedia .fa-envelope:hover{
