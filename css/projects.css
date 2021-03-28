@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .Main-container
+{
+  background-image: url("../Image/background.jpg");
+  background-color: #cccccc;
+  height: 200%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Container-inside{
+  background-color: rgb(201, 91, 91); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top:45%;
+  left:50%;
+  z-index: 1;
+  margin-top: 30%;
+  width: auto;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.Container-inside img{
+  position: static;
+  width: 225px;
+  height: 225px;
+  border-radius: 40%;
+  margin-top: 0%;
+}
+.Container-inside h3{
+  color:white;
+}
+.Container-inside p{
+  color:wheat;
+}
+.Home_Button{
+    font-family: "proxima nova";
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border: 2px solid #31A6FF;
+    border-radius: 30px;
+    padding: 10px 80px;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+    text-decoration: none;
+  }
+  .Home_Button:hover{
+    background-color: #31A6FF;
+  }
