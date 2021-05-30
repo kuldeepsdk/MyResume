@@ -8,7 +8,7 @@ body, html {
   }
   .Main-container
 {
-  background-image: url("../Image/background.jpg");
+  background-image: url("../Image/background1.png");
   background-color: #cccccc;
   height: 200%;
   width: 100%;
@@ -27,7 +27,7 @@ body, html {
   top:45%;
   left:50%;
   z-index: 1;
-  margin-top: 30%;
+  margin-top: 20%;
   width: auto;
   height: auto;
   padding-left: 5%;
@@ -64,4 +64,21 @@ body, html {
   }
   .Home_Button:hover{
     background-color: #31A6FF;
+  }
+
+  .Project_Headings
+  {
+    margin-left: -90%;
+    color: coral;
+    font-size: large;
+  }
+  .Project_Headings1
+  {
+    color: white;
+    font-size: large;
+    text-align: left;
+  }
+  .Project_Headings1 span{
+    color:red;
+    text-align: left;
   }
